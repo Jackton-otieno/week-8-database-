@@ -1,3 +1,41 @@
+-----Question 1
+
+Library Management Database
+Description
+A MySQL database for a Library Management System, including tables for books, authors, members, loans, and a book-authors junction table. The SQL script includes constraints (PK, FK, NOT NULL, UNIQUE, CHECK) and sample data.
+Files
+
+library_management.sql: SQL script to create and populate the database.
+ERD image.![Library Management Database ER](https://github.com/user-attachments/assets/05b4cd13-866e-4296-91aa-ec36c9b232c1)
+
+
+Setup Instructions
+
+Import the SQL script:mysql -u your_username -p < library_management.sql
+
+
+Verify the database:USE library_management;
+SHOW TABLES;
+SELECT * FROM books;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 --Question 2
 
