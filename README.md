@@ -95,9 +95,9 @@ ERD (Entity-Relationship Diagram)
 
 
 
-
-Note: Replace the placeholder with a link to your actual ERD image after creating it using a tool like MySQL Workbench or draw.io.
 Project Structure
+
+
 task-manager-api/
 ├── src/
 │   ├── config/
