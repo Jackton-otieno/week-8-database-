@@ -25,18 +25,6 @@ SELECT * FROM books;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 --Question 2
 
 
@@ -97,6 +85,17 @@ curl -X POST http://localhost:3000/api/tasks \
 -d '{"title":"New Task","description":"Task description","status":"pending","due_date":"2025-06-01","category_id":1}'
 
 ERD (Entity-Relationship Diagram)
+
+
+
+![Task Manager ERD](https://github.com/user-attachments/assets/bd1b6763-408c-4984-a751-8f961f7ea499)
+
+
+
+
+
+
+
 Note: Replace the placeholder with a link to your actual ERD image after creating it using a tool like MySQL Workbench or draw.io.
 Project Structure
 task-manager-api/
